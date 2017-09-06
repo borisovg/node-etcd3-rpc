@@ -1,11 +1,11 @@
 PROTO = proto/rpc.proto \
         proto/gogoproto/gogo.proto \
-		proto/etcd/mvcc/mvccpb/kv.proto \
-		proto/etcd/mvcc/mvccpb/gogoproto/gogo.proto \
-		proto/etcd/auth/authpb/auth.proto \
-		proto/etcd/auth/authpb/gogoproto/gogo.proto \
-		proto/google/api/annotations.proto \
-		proto/google/api/google/api/http.proto
+        proto/etcd/mvcc/mvccpb/kv.proto \
+        proto/etcd/mvcc/mvccpb/gogoproto/gogo.proto \
+        proto/etcd/auth/authpb/auth.proto \
+        proto/etcd/auth/authpb/gogoproto/gogo.proto \
+        proto/google/api/annotations.proto \
+        proto/google/api/google/api/http.proto
 
 .PHONY: all
 all: proto
