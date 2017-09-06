@@ -6,3 +6,7 @@
 	path = submodules/protobuf
 	url = https://github.com/gogo/protobuf.git
 	shallow = true
+[submodule "submodules/googleapis"]
+	path = submodules/googleapis
+	url = https://github.com/googleapis/googleapis.git
+	shallow = true
