@@ -2,3 +2,7 @@
 	path = submodules/etcd
 	url = https://github.com/coreos/etcd.git
 	shallow = true
+[submodule "submodules/protobuf"]
+	path = submodules/protobuf
+	url = https://github.com/gogo/protobuf.git
+	shallow = true
