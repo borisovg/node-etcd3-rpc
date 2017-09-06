@@ -1,0 +1,4 @@
+[submodule "submodules/etcd"]
+	path = submodules/etcd
+	url = https://github.com/coreos/etcd.git
+	shallow = true
