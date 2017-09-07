@@ -1,23 +1,31 @@
 {
   "name": "etcd-rpc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node library to access etcd's gRPC API.",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/borisovg/node-etcd-rpc.git"
+  },
   "keywords": [
     "etcd",
     "grpc",
-    "client"
+    "client",
+    "rpc",
+    "v3"
   ],
   "author": {
     "name": "George Borisov",
     "url": "https://github.com/borisovg"
   },
-  "private": true,
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/borisovg/node-etcd-rpc/issues"
+  },
   "dependencies": {
-    "google-protobuf": "^3.4.0",
     "grpc": "^1.6.0"
   },
   "engines": {
