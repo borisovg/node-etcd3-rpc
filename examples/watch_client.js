@@ -2,7 +2,7 @@
 'use strict';
 
 const grpc = require('grpc');
-const etcd = require('etcd-rpc');
+const etcd = require('etcd3-rpc');
 
 const client = new etcd.Watch('etcd.server.hostname:2379', grpc.credentials.createInsecure());
 const stream = client.watch();

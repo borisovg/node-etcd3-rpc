@@ -1,4 +1,4 @@
-# node-etcd-rpc
+# node-etcd3-rpc
 
 This module loads etcd3's `rpc.proto` file so that you can access the gRPC API from Node.
 More importantly, it brings together all the other `.proto` files necessary to load it.
@@ -10,7 +10,7 @@ See [rpc.proto](proto/rpc.proto) for more information.
 ## Installation
 
 ```
-npm install etcd-rpc
+npm install etcd3-rpc
 ```
 
 ## Example clients
