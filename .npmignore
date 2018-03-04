@@ -1,2 +1,5 @@
+.gitmodules
+examples
+Makefile
 node_modules
 submodules
