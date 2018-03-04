@@ -1,7 +1,7 @@
 {
   "name": "etcd-rpc",
-  "version": "1.0.2",
-  "description": "Node library to access etcd's gRPC API.",
+  "version": "1.1.1",
+  "description": "Node library to access etcd3 gRPC API.",
   "main": "index.js",
   "scripts": {
     "test": "make test"
