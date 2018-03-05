@@ -27,7 +27,7 @@ stream.on('data', function (data) {
         });
 
         stream.write({ cancel_request: { watch_id: id } });
-    }, 10000);
+    }, 1000);
 });
 
 stream.on('error', function (err) {
