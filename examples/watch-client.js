@@ -23,6 +23,7 @@ stream.on('data', function (data) {
         stream.on('data', function (data) {
             console.log('Cancelled:', data);
             stream.end();
+            client.close();
         });
 
         stream.write({ cancel_request: { watch_id: id } });
