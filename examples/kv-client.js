@@ -4,7 +4,7 @@
 const grpc = require('grpc');
 const etcd = require('etcd3-rpc');
 
-const client = new etcd.KV('etcd.server.hostname:2379', grpc.credentials.createInsecure());
+const client = new etcd.KV('localhost:2379', grpc.credentials.createInsecure());
 
 client.put({
     key: new Buffer('foo'),
